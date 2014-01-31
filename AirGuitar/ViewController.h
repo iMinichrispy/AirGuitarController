@@ -10,6 +10,7 @@
 #import "FretHeaders.h"
 #import "FretsView.h"
 #import "PickView.h"
+#import "AccessoryService.h"
 #import "AsyncService.h"
 #import "BonjourService.h"
 #import "InstructionsView.h"

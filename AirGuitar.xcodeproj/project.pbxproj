@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA638F9D189B63EB001ADA37 /* AccessoryService.m in Sources */ = {isa = PBXBuildFile; fileRef = FA638F9C189B63EB001ADA37 /* AccessoryService.m */; };
+		FA638F9F189B6499001ADA37 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA638F9E189B6499001ADA37 /* ExternalAccessory.framework */; };
 		FA7ED48A188D8DEE00979407 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7ED489188D8DEE00979407 /* Images.xcassets */; };
 		FA9F5538188B07E20068CBF8 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9F5537188B07E20068CBF8 /* CoreMotion.framework */; };
 		FA9F5541188BA3B50068CBF8 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9F5540188BA3B50068CBF8 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -69,6 +71,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA638F9B189B63EB001ADA37 /* AccessoryService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessoryService.h; sourceTree = "<group>"; };
+		FA638F9C189B63EB001ADA37 /* AccessoryService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessoryService.m; sourceTree = "<group>"; };
+		FA638F9E189B6499001ADA37 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 		FA7ED489188D8DEE00979407 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FA9F5537188B07E20068CBF8 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		FA9F553F188BA3B50068CBF8 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
@@ -148,6 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA638F9F189B6499001ADA37 /* ExternalAccessory.framework in Frameworks */,
 				FA9F5543188BA6050068CBF8 /* SystemConfiguration.framework in Frameworks */,
 				FA9F5538188B07E20068CBF8 /* CoreMotion.framework in Frameworks */,
 				FAD9C76F18873E1400B41CA5 /* MessageUI.framework in Frameworks */,
@@ -223,6 +229,7 @@
 		FAA23DE918848DE4007EA37D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA638F9E189B6499001ADA37 /* ExternalAccessory.framework */,
 				FA9F5542188BA6050068CBF8 /* SystemConfiguration.framework */,
 				FA9F5537188B07E20068CBF8 /* CoreMotion.framework */,
 				FAD9C76E18873E1400B41CA5 /* MessageUI.framework */,
@@ -305,6 +312,8 @@
 		FAA23E2A18848E85007EA37D /* Handlers */ = {
 			isa = PBXGroup;
 			children = (
+				FA638F9B189B63EB001ADA37 /* AccessoryService.h */,
+				FA638F9C189B63EB001ADA37 /* AccessoryService.m */,
 				FAA23E2D18848E8B007EA37D /* AsyncService.h */,
 				FAA23E2E18848E8B007EA37D /* AsyncService.m */,
 				FAA23E2F18848E8B007EA37D /* BonjourService.h */,
@@ -510,6 +519,7 @@
 				FAA23E2818848E62007EA37D /* FretsView.m in Sources */,
 				FAA23E3E18848ECD007EA37D /* Acceleration.m in Sources */,
 				FAA23E2718848E62007EA37D /* FretSettings.m in Sources */,
+				FA638F9D189B63EB001ADA37 /* AccessoryService.m in Sources */,
 				FAA23E3318848E8B007EA37D /* BonjourService.m in Sources */,
 				FA9F5541188BA3B50068CBF8 /* Reachability.m in Sources */,
 				FAA23E4218848F08007EA37D /* PickView.m in Sources */,

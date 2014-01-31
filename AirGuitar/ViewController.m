@@ -12,6 +12,7 @@
 
 @interface ViewController () {
     BonjourService *bonjour;
+    AccessoryService *accessory;
     AsyncService *socket;
     Reachability *reachability;
     
@@ -70,6 +71,7 @@
     
     socket = [[AsyncService alloc] initWithDelegate:self];
     bonjour = [[BonjourService alloc] initWithService:@"_airguitar-fret._tcp." delegate:self];
+    accessory = [[AccessoryService alloc] initWithDelegate:self];
     
     [self didChangePlayerType];
     
@@ -121,10 +123,12 @@
 #pragma mark Application State
 
 - (void)viewWillAppear:(BOOL)animated {
+    [accessory viewWillAppear];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reachabilityChanged:) name:kReachabilityChangedNotification object:nil];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
+    [accessory viewWillDisappear];
     [[NSNotificationCenter defaultCenter] removeObserver:self name:kReachabilityChangedNotification object:nil];
 }
 
