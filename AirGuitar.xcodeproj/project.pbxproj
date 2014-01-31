@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA7ED48A188D8DEE00979407 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7ED489188D8DEE00979407 /* Images.xcassets */; };
+		FA9F5538188B07E20068CBF8 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9F5537188B07E20068CBF8 /* CoreMotion.framework */; };
+		FA9F5541188BA3B50068CBF8 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9F5540188BA3B50068CBF8 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FA9F5543188BA6050068CBF8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9F5542188BA6050068CBF8 /* SystemConfiguration.framework */; };
+		FAA13E3C188843A500EA3B26 /* SupportView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA13E3B188843A500EA3B26 /* SupportView.m */; };
+		FAA13E3F1888BC8F00EA3B26 /* Email.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA13E3E1888BC8F00EA3B26 /* Email.m */; };
+		FAA13E4A1888CCAA00EA3B26 /* SettingsGear.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA13E461888CCAA00EA3B26 /* SettingsGear.png */; };
+		FAA16C891889835500DA8712 /* Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA16C7F1889835500DA8712 /* Blue.png */; };
+		FAA16C8A1889835500DA8712 /* Blue-Pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA16C801889835500DA8712 /* Blue-Pressed.png */; };
+		FAA16C8B1889835500DA8712 /* Green-Pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA16C811889835500DA8712 /* Green-Pressed.png */; };
+		FAA16C8C1889835500DA8712 /* Green.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA16C821889835500DA8712 /* Green.png */; };
+		FAA16C8D1889835500DA8712 /* Orange-Pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA16C831889835500DA8712 /* Orange-Pressed.png */; };
+		FAA16C8E1889835500DA8712 /* Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA16C841889835500DA8712 /* Orange.png */; };
+		FAA16C8F1889835500DA8712 /* Red-Pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA16C851889835500DA8712 /* Red-Pressed.png */; };
+		FAA16C901889835500DA8712 /* Red.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA16C861889835500DA8712 /* Red.png */; };
+		FAA16C911889835500DA8712 /* Yellow-Pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA16C871889835500DA8712 /* Yellow-Pressed.png */; };
+		FAA16C921889835500DA8712 /* Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA16C881889835500DA8712 /* Yellow.png */; };
+		FAA16C9718898FF100DA8712 /* Pick.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA16C9618898FF100DA8712 /* Pick.png */; };
+		FAA16C981889AD3500DA8712 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA23DFC18848DE4007EA37D /* Main.storyboard */; };
+		FAA16C9F1889B18500DA8712 /* Avenir-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAA16C9E1889B10700DA8712 /* Avenir-Medium.ttf */; };
+		FAA16CA71889B93F00DA8712 /* AvenirUI.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA16CA21889B93F00DA8712 /* AvenirUI.m */; };
+		FAA16CA81889B93F00DA8712 /* Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA16CA41889B93F00DA8712 /* Colors.m */; };
+		FAA23DEB18848DE4007EA37D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA23DEA18848DE4007EA37D /* Foundation.framework */; };
+		FAA23DED18848DE4007EA37D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA23DEC18848DE4007EA37D /* CoreGraphics.framework */; };
+		FAA23DEF18848DE4007EA37D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA23DEE18848DE4007EA37D /* UIKit.framework */; };
+		FAA23DF518848DE4007EA37D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAA23DF318848DE4007EA37D /* InfoPlist.strings */; };
+		FAA23DF718848DE4007EA37D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA23DF618848DE4007EA37D /* main.m */; };
+		FAA23DFB18848DE4007EA37D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA23DFA18848DE4007EA37D /* AppDelegate.m */; };
+		FAA23E0118848DE4007EA37D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA23E0018848DE4007EA37D /* ViewController.m */; };
+		FAA23E0A18848DE4007EA37D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA23E0918848DE4007EA37D /* XCTest.framework */; };
+		FAA23E0B18848DE4007EA37D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA23DEA18848DE4007EA37D /* Foundation.framework */; };
+		FAA23E0C18848DE4007EA37D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA23DEE18848DE4007EA37D /* UIKit.framework */; };
+		FAA23E1418848DE4007EA37D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAA23E1218848DE4007EA37D /* InfoPlist.strings */; };
+		FAA23E1618848DE4007EA37D /* AirGuitarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA23E1518848DE4007EA37D /* AirGuitarTests.m */; };
+		FAA23E2718848E62007EA37D /* FretSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA23E2218848E62007EA37D /* FretSettings.m */; };
+		FAA23E2818848E62007EA37D /* FretsView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA23E2418848E62007EA37D /* FretsView.m */; };
+		FAA23E2918848E62007EA37D /* InstructionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA23E2618848E62007EA37D /* InstructionsView.m */; };
+		FAA23E3218848E8B007EA37D /* AsyncService.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA23E2E18848E8B007EA37D /* AsyncService.m */; };
+		FAA23E3318848E8B007EA37D /* BonjourService.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA23E3018848E8B007EA37D /* BonjourService.m */; };
+		FAA23E3B18848EAD007EA37D /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA23E3A18848EAD007EA37D /* AsyncSocket.m */; };
+		FAA23E3E18848ECD007EA37D /* Acceleration.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA23E3D18848ECD007EA37D /* Acceleration.m */; };
+		FAA23E4218848F08007EA37D /* PickView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA23E4118848F08007EA37D /* PickView.m */; };
+		FAA23E4418849042007EA37D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA23E4318849042007EA37D /* CFNetwork.framework */; };
+		FAA2E767188A380600DA295A /* Pick-Pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA2E766188A380600DA295A /* Pick-Pressed.png */; };
+		FAD9C76618872CA700B41CA5 /* WiFi.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD9C76518872CA700B41CA5 /* WiFi.png */; };
+		FAD9C768188734C000B41CA5 /* Mac.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD9C767188734C000B41CA5 /* Mac.png */; };
+		FAD9C76A1887368E00B41CA5 /* Guitar.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD9C7691887368E00B41CA5 /* Guitar.png */; };
+		FAD9C76D18873DD000B41CA5 /* MailComposer.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD9C76C18873DD000B41CA5 /* MailComposer.m */; };
+		FAD9C76F18873E1400B41CA5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD9C76E18873E1400B41CA5 /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAA23E0D18848DE4007EA37D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA23DDF18848DE4007EA37D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA23DE618848DE4007EA37D;
+			remoteInfo = AirGuitar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA7ED489188D8DEE00979407 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA9F5537188B07E20068CBF8 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		FA9F553F188BA3B50068CBF8 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		FA9F5540188BA3B50068CBF8 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		FA9F5542188BA6050068CBF8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FAA13E3A188843A500EA3B26 /* SupportView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportView.h; sourceTree = "<group>"; };
+		FAA13E3B188843A500EA3B26 /* SupportView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportView.m; sourceTree = "<group>"; };
+		FAA13E3D1888BC8F00EA3B26 /* Email.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Email.h; sourceTree = "<group>"; };
+		FAA13E3E1888BC8F00EA3B26 /* Email.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Email.m; sourceTree = "<group>"; };
+		FAA13E461888CCAA00EA3B26 /* SettingsGear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SettingsGear.png; sourceTree = "<group>"; };
+		FAA16C7F1889835500DA8712 /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blue.png; sourceTree = "<group>"; };
+		FAA16C801889835500DA8712 /* Blue-Pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue-Pressed.png"; sourceTree = "<group>"; };
+		FAA16C811889835500DA8712 /* Green-Pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green-Pressed.png"; sourceTree = "<group>"; };
+		FAA16C821889835500DA8712 /* Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Green.png; sourceTree = "<group>"; };
+		FAA16C831889835500DA8712 /* Orange-Pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orange-Pressed.png"; sourceTree = "<group>"; };
+		FAA16C841889835500DA8712 /* Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orange.png; sourceTree = "<group>"; };
+		FAA16C851889835500DA8712 /* Red-Pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red-Pressed.png"; sourceTree = "<group>"; };
+		FAA16C861889835500DA8712 /* Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Red.png; sourceTree = "<group>"; };
+		FAA16C871889835500DA8712 /* Yellow-Pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Yellow-Pressed.png"; sourceTree = "<group>"; };
+		FAA16C881889835500DA8712 /* Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yellow.png; sourceTree = "<group>"; };
+		FAA16C9618898FF100DA8712 /* Pick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pick.png; sourceTree = "<group>"; };
+		FAA16C9B1889AE1500DA8712 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAA16C9E1889B10700DA8712 /* Avenir-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Avenir-Medium.ttf"; sourceTree = "<group>"; };
+		FAA16CA11889B93F00DA8712 /* AvenirUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AvenirUI.h; path = UI/AvenirUI.h; sourceTree = "<group>"; };
+		FAA16CA21889B93F00DA8712 /* AvenirUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AvenirUI.m; path = UI/AvenirUI.m; sourceTree = "<group>"; };
+		FAA16CA31889B93F00DA8712 /* Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Colors.h; path = UI/Colors.h; sourceTree = "<group>"; };
+		FAA16CA41889B93F00DA8712 /* Colors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Colors.m; path = UI/Colors.m; sourceTree = "<group>"; };
+		FAA23DE718848DE4007EA37D /* AirGuitar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirGuitar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA23DEA18848DE4007EA37D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAA23DEC18848DE4007EA37D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAA23DEE18848DE4007EA37D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAA23DF218848DE4007EA37D /* AirGuitar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirGuitar-Info.plist"; sourceTree = "<group>"; };
+		FAA23DF418848DE4007EA37D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAA23DF618848DE4007EA37D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAA23DF818848DE4007EA37D /* AirGuitar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirGuitar-Prefix.pch"; sourceTree = "<group>"; };
+		FAA23DF918848DE4007EA37D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAA23DFA18848DE4007EA37D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAA23DFF18848DE4007EA37D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAA23E0018848DE4007EA37D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAA23E0818848DE4007EA37D /* AirGuitarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirGuitarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA23E0918848DE4007EA37D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FAA23E1118848DE4007EA37D /* AirGuitarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirGuitarTests-Info.plist"; sourceTree = "<group>"; };
+		FAA23E1318848DE4007EA37D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAA23E1518848DE4007EA37D /* AirGuitarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirGuitarTests.m; sourceTree = "<group>"; };
+		FAA23E1F18848E0D007EA37D /* FretHeaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FretHeaders.h; sourceTree = "<group>"; };
+		FAA23E2118848E62007EA37D /* FretSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FretSettings.h; sourceTree = "<group>"; };
+		FAA23E2218848E62007EA37D /* FretSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FretSettings.m; sourceTree = "<group>"; };
+		FAA23E2318848E62007EA37D /* FretsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FretsView.h; sourceTree = "<group>"; };
+		FAA23E2418848E62007EA37D /* FretsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FretsView.m; sourceTree = "<group>"; };
+		FAA23E2518848E62007EA37D /* InstructionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstructionsView.h; sourceTree = "<group>"; };
+		FAA23E2618848E62007EA37D /* InstructionsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructionsView.m; sourceTree = "<group>"; };
+		FAA23E2D18848E8B007EA37D /* AsyncService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncService.h; sourceTree = "<group>"; };
+		FAA23E2E18848E8B007EA37D /* AsyncService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncService.m; sourceTree = "<group>"; };
+		FAA23E2F18848E8B007EA37D /* BonjourService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BonjourService.h; sourceTree = "<group>"; };
+		FAA23E3018848E8B007EA37D /* BonjourService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BonjourService.m; sourceTree = "<group>"; };
+		FAA23E3518848EA5007EA37D /* AGAccessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGAccessory.h; sourceTree = "<group>"; };
+		FAA23E3618848EA5007EA37D /* AGAccessoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGAccessoryManager.h; sourceTree = "<group>"; };
+		FAA23E3718848EA5007EA37D /* AirGuitarSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirGuitarSDK.h; sourceTree = "<group>"; };
+		FAA23E3918848EAD007EA37D /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		FAA23E3A18848EAD007EA37D /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		FAA23E3C18848ECD007EA37D /* Acceleration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Acceleration.h; sourceTree = "<group>"; };
+		FAA23E3D18848ECD007EA37D /* Acceleration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Acceleration.m; sourceTree = "<group>"; };
+		FAA23E4018848F08007EA37D /* PickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickView.h; sourceTree = "<group>"; };
+		FAA23E4118848F08007EA37D /* PickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickView.m; sourceTree = "<group>"; };
+		FAA23E4318849042007EA37D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FAA2E766188A380600DA295A /* Pick-Pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pick-Pressed.png"; sourceTree = "<group>"; };
+		FAD9C76518872CA700B41CA5 /* WiFi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WiFi.png; sourceTree = "<group>"; };
+		FAD9C767188734C000B41CA5 /* Mac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mac.png; sourceTree = "<group>"; };
+		FAD9C7691887368E00B41CA5 /* Guitar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Guitar.png; sourceTree = "<group>"; };
+		FAD9C76B18873DD000B41CA5 /* MailComposer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailComposer.h; sourceTree = "<group>"; };
+		FAD9C76C18873DD000B41CA5 /* MailComposer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailComposer.m; sourceTree = "<group>"; };
+		FAD9C76E18873E1400B41CA5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA23DE418848DE4007EA37D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9F5543188BA6050068CBF8 /* SystemConfiguration.framework in Frameworks */,
+				FA9F5538188B07E20068CBF8 /* CoreMotion.framework in Frameworks */,
+				FAD9C76F18873E1400B41CA5 /* MessageUI.framework in Frameworks */,
+				FAA23E4418849042007EA37D /* CFNetwork.framework in Frameworks */,
+				FAA23DED18848DE4007EA37D /* CoreGraphics.framework in Frameworks */,
+				FAA23DEF18848DE4007EA37D /* UIKit.framework in Frameworks */,
+				FAA23DEB18848DE4007EA37D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA23E0518848DE4007EA37D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA23E0A18848DE4007EA37D /* XCTest.framework in Frameworks */,
+				FAA23E0C18848DE4007EA37D /* UIKit.framework in Frameworks */,
+				FAA23E0B18848DE4007EA37D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA13E571888E32B00EA3B26 /* Frets */ = {
+			isa = PBXGroup;
+			children = (
+				FAA16C7F1889835500DA8712 /* Blue.png */,
+				FAA16C801889835500DA8712 /* Blue-Pressed.png */,
+				FAA16C811889835500DA8712 /* Green-Pressed.png */,
+				FAA16C821889835500DA8712 /* Green.png */,
+				FAA16C831889835500DA8712 /* Orange-Pressed.png */,
+				FAA16C841889835500DA8712 /* Orange.png */,
+				FAA16C851889835500DA8712 /* Red-Pressed.png */,
+				FAA16C861889835500DA8712 /* Red.png */,
+				FAA16C871889835500DA8712 /* Yellow-Pressed.png */,
+				FAA16C881889835500DA8712 /* Yellow.png */,
+			);
+			path = Frets;
+			sourceTree = "<group>";
+		};
+		FAA16CA01889B91C00DA8712 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FAA16C9E1889B10700DA8712 /* Avenir-Medium.ttf */,
+				FAA16CA11889B93F00DA8712 /* AvenirUI.h */,
+				FAA16CA21889B93F00DA8712 /* AvenirUI.m */,
+				FAA16CA31889B93F00DA8712 /* Colors.h */,
+				FAA16CA41889B93F00DA8712 /* Colors.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		FAA23DDE18848DE4007EA37D = {
+			isa = PBXGroup;
+			children = (
+				FAD9C76418872CA700B41CA5 /* Images */,
+				FAA23DF018848DE4007EA37D /* AirGuitar */,
+				FAA23E0F18848DE4007EA37D /* AirGuitarTests */,
+				FAA23DE918848DE4007EA37D /* Frameworks */,
+				FAA23DE818848DE4007EA37D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA23DE818848DE4007EA37D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA23DE718848DE4007EA37D /* AirGuitar.app */,
+				FAA23E0818848DE4007EA37D /* AirGuitarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA23DE918848DE4007EA37D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA9F5542188BA6050068CBF8 /* SystemConfiguration.framework */,
+				FA9F5537188B07E20068CBF8 /* CoreMotion.framework */,
+				FAD9C76E18873E1400B41CA5 /* MessageUI.framework */,
+				FAA23E4318849042007EA37D /* CFNetwork.framework */,
+				FAA23DEA18848DE4007EA37D /* Foundation.framework */,
+				FAA23DEC18848DE4007EA37D /* CoreGraphics.framework */,
+				FAA23DEE18848DE4007EA37D /* UIKit.framework */,
+				FAA23E0918848DE4007EA37D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAA23DF018848DE4007EA37D /* AirGuitar */ = {
+			isa = PBXGroup;
+			children = (
+				FAA23E1F18848E0D007EA37D /* FretHeaders.h */,
+				FAA23DF918848DE4007EA37D /* AppDelegate.h */,
+				FAA23DFA18848DE4007EA37D /* AppDelegate.m */,
+				FAA23DFC18848DE4007EA37D /* Main.storyboard */,
+				FAA23DFF18848DE4007EA37D /* ViewController.h */,
+				FAA23E0018848DE4007EA37D /* ViewController.m */,
+				FAA16CA01889B91C00DA8712 /* UI */,
+				FAA23E3F18848ED0007EA37D /* Models */,
+				FAA23E2A18848E85007EA37D /* Handlers */,
+				FAA23E2018848E55007EA37D /* Views */,
+				FAA23DF118848DE4007EA37D /* Supporting Files */,
+			);
+			path = AirGuitar;
+			sourceTree = "<group>";
+		};
+		FAA23DF118848DE4007EA37D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA7ED489188D8DEE00979407 /* Images.xcassets */,
+				FAA23E3818848EAD007EA37D /* Networking */,
+				FAA23E3418848EA5007EA37D /* AirGuitarSDK */,
+				FAA23DF218848DE4007EA37D /* AirGuitar-Info.plist */,
+				FAA23DF318848DE4007EA37D /* InfoPlist.strings */,
+				FAA23DF618848DE4007EA37D /* main.m */,
+				FAA23DF818848DE4007EA37D /* AirGuitar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAA23E0F18848DE4007EA37D /* AirGuitarTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA23E1518848DE4007EA37D /* AirGuitarTests.m */,
+				FAA23E1018848DE4007EA37D /* Supporting Files */,
+			);
+			path = AirGuitarTests;
+			sourceTree = "<group>";
+		};
+		FAA23E1018848DE4007EA37D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAA23E1118848DE4007EA37D /* AirGuitarTests-Info.plist */,
+				FAA23E1218848DE4007EA37D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAA23E2018848E55007EA37D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAA23E2318848E62007EA37D /* FretsView.h */,
+				FAA23E2418848E62007EA37D /* FretsView.m */,
+				FAA23E2118848E62007EA37D /* FretSettings.h */,
+				FAA23E2218848E62007EA37D /* FretSettings.m */,
+				FAA23E4018848F08007EA37D /* PickView.h */,
+				FAA23E4118848F08007EA37D /* PickView.m */,
+				FAA23E2518848E62007EA37D /* InstructionsView.h */,
+				FAA23E2618848E62007EA37D /* InstructionsView.m */,
+				FAA13E3A188843A500EA3B26 /* SupportView.h */,
+				FAA13E3B188843A500EA3B26 /* SupportView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FAA23E2A18848E85007EA37D /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				FAA23E2D18848E8B007EA37D /* AsyncService.h */,
+				FAA23E2E18848E8B007EA37D /* AsyncService.m */,
+				FAA23E2F18848E8B007EA37D /* BonjourService.h */,
+				FAA23E3018848E8B007EA37D /* BonjourService.m */,
+				FAD9C76B18873DD000B41CA5 /* MailComposer.h */,
+				FAD9C76C18873DD000B41CA5 /* MailComposer.m */,
+			);
+			name = Handlers;
+			sourceTree = "<group>";
+		};
+		FAA23E3418848EA5007EA37D /* AirGuitarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				FAA23E3518848EA5007EA37D /* AGAccessory.h */,
+				FAA23E3618848EA5007EA37D /* AGAccessoryManager.h */,
+				FAA23E3718848EA5007EA37D /* AirGuitarSDK.h */,
+			);
+			path = AirGuitarSDK;
+			sourceTree = "<group>";
+		};
+		FAA23E3818848EAD007EA37D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FAA23E3918848EAD007EA37D /* AsyncSocket.h */,
+				FAA23E3A18848EAD007EA37D /* AsyncSocket.m */,
+				FA9F553F188BA3B50068CBF8 /* Reachability.h */,
+				FA9F5540188BA3B50068CBF8 /* Reachability.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FAA23E3F18848ED0007EA37D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAA13E3D1888BC8F00EA3B26 /* Email.h */,
+				FAA13E3E1888BC8F00EA3B26 /* Email.m */,
+				FAA23E3C18848ECD007EA37D /* Acceleration.h */,
+				FAA23E3D18848ECD007EA37D /* Acceleration.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		FAD9C76418872CA700B41CA5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FAA13E571888E32B00EA3B26 /* Frets */,
+				FAD9C7691887368E00B41CA5 /* Guitar.png */,
+				FAD9C76518872CA700B41CA5 /* WiFi.png */,
+				FAD9C767188734C000B41CA5 /* Mac.png */,
+				FAA13E461888CCAA00EA3B26 /* SettingsGear.png */,
+				FAA16C9618898FF100DA8712 /* Pick.png */,
+				FAA2E766188A380600DA295A /* Pick-Pressed.png */,
+			);
+			name = Images;
+			path = AirGuitar/Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA23DE618848DE4007EA37D /* AirGuitar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA23E1918848DE4007EA37D /* Build configuration list for PBXNativeTarget "AirGuitar" */;
+			buildPhases = (
+				FAA23DE318848DE4007EA37D /* Sources */,
+				FAA23DE418848DE4007EA37D /* Frameworks */,
+				FAA23DE518848DE4007EA37D /* Resources */,
+				FAA31531188EDCDC00F1126A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirGuitar;
+			productName = AirGuitar;
+			productReference = FAA23DE718848DE4007EA37D /* AirGuitar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAA23E0718848DE4007EA37D /* AirGuitarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA23E1C18848DE4007EA37D /* Build configuration list for PBXNativeTarget "AirGuitarTests" */;
+			buildPhases = (
+				FAA23E0418848DE4007EA37D /* Sources */,
+				FAA23E0518848DE4007EA37D /* Frameworks */,
+				FAA23E0618848DE4007EA37D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA23E0E18848DE4007EA37D /* PBXTargetDependency */,
+			);
+			name = AirGuitarTests;
+			productName = AirGuitarTests;
+			productReference = FAA23E0818848DE4007EA37D /* AirGuitarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA23DDF18848DE4007EA37D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Alex Perez";
+				TargetAttributes = {
+					FAA23DE618848DE4007EA37D = {
+						DevelopmentTeam = 3M2F493L45;
+					};
+					FAA23E0718848DE4007EA37D = {
+						TestTargetID = FAA23DE618848DE4007EA37D;
+					};
+				};
+			};
+			buildConfigurationList = FAA23DE218848DE4007EA37D /* Build configuration list for PBXProject "AirGuitar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA23DDE18848DE4007EA37D;
+			productRefGroup = FAA23DE818848DE4007EA37D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA23DE618848DE4007EA37D /* AirGuitar */,
+				FAA23E0718848DE4007EA37D /* AirGuitarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA23DE518848DE4007EA37D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA16C9718898FF100DA8712 /* Pick.png in Resources */,
+				FA7ED48A188D8DEE00979407 /* Images.xcassets in Resources */,
+				FAA2E767188A380600DA295A /* Pick-Pressed.png in Resources */,
+				FAA16C921889835500DA8712 /* Yellow.png in Resources */,
+				FAD9C768188734C000B41CA5 /* Mac.png in Resources */,
+				FAA16C8E1889835500DA8712 /* Orange.png in Resources */,
+				FAA16C8B1889835500DA8712 /* Green-Pressed.png in Resources */,
+				FAA16C911889835500DA8712 /* Yellow-Pressed.png in Resources */,
+				FAA16C8C1889835500DA8712 /* Green.png in Resources */,
+				FAA16C8D1889835500DA8712 /* Orange-Pressed.png in Resources */,
+				FAA16C901889835500DA8712 /* Red.png in Resources */,
+				FAA16C8A1889835500DA8712 /* Blue-Pressed.png in Resources */,
+				FAA23DF518848DE4007EA37D /* InfoPlist.strings in Resources */,
+				FAA16C891889835500DA8712 /* Blue.png in Resources */,
+				FAA13E4A1888CCAA00EA3B26 /* SettingsGear.png in Resources */,
+				FAA16C9F1889B18500DA8712 /* Avenir-Medium.ttf in Resources */,
+				FAA16C8F1889835500DA8712 /* Red-Pressed.png in Resources */,
+				FAA16C981889AD3500DA8712 /* Main.storyboard in Resources */,
+				FAD9C76A1887368E00B41CA5 /* Guitar.png in Resources */,
+				FAD9C76618872CA700B41CA5 /* WiFi.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA23E0618848DE4007EA37D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA23E1418848DE4007EA37D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FAA31531188EDCDC00F1126A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA23DE318848DE4007EA37D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA23E3218848E8B007EA37D /* AsyncService.m in Sources */,
+				FAA23E3B18848EAD007EA37D /* AsyncSocket.m in Sources */,
+				FAA23E0118848DE4007EA37D /* ViewController.m in Sources */,
+				FAA16CA81889B93F00DA8712 /* Colors.m in Sources */,
+				FAA13E3C188843A500EA3B26 /* SupportView.m in Sources */,
+				FAA23DFB18848DE4007EA37D /* AppDelegate.m in Sources */,
+				FAD9C76D18873DD000B41CA5 /* MailComposer.m in Sources */,
+				FAA23DF718848DE4007EA37D /* main.m in Sources */,
+				FAA16CA71889B93F00DA8712 /* AvenirUI.m in Sources */,
+				FAA23E2918848E62007EA37D /* InstructionsView.m in Sources */,
+				FAA13E3F1888BC8F00EA3B26 /* Email.m in Sources */,
+				FAA23E2818848E62007EA37D /* FretsView.m in Sources */,
+				FAA23E3E18848ECD007EA37D /* Acceleration.m in Sources */,
+				FAA23E2718848E62007EA37D /* FretSettings.m in Sources */,
+				FAA23E3318848E8B007EA37D /* BonjourService.m in Sources */,
+				FA9F5541188BA3B50068CBF8 /* Reachability.m in Sources */,
+				FAA23E4218848F08007EA37D /* PickView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA23E0418848DE4007EA37D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA23E1618848DE4007EA37D /* AirGuitarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAA23E0E18848DE4007EA37D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA23DE618848DE4007EA37D /* AirGuitar */;
+			targetProxy = FAA23E0D18848DE4007EA37D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAA23DF318848DE4007EA37D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA23DF418848DE4007EA37D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAA23DFC18848DE4007EA37D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA16C9B1889AE1500DA8712 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAA23E1218848DE4007EA37D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA23E1318848DE4007EA37D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAA23E1718848DE4007EA37D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAA23E1818848DE4007EA37D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA23E1A18848DE4007EA37D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirGuitar/AirGuitar-Prefix.pch";
+				INFOPLIST_FILE = "AirGuitar/AirGuitar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAA23E1B18848DE4007EA37D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirGuitar/AirGuitar-Prefix.pch";
+				INFOPLIST_FILE = "AirGuitar/AirGuitar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FAA23E1D18848DE4007EA37D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AirGuitar.app/AirGuitar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirGuitar/AirGuitar-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AirGuitarTests/AirGuitarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FAA23E1E18848DE4007EA37D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AirGuitar.app/AirGuitar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirGuitar/AirGuitar-Prefix.pch";
+				INFOPLIST_FILE = "AirGuitarTests/AirGuitarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA23DE218848DE4007EA37D /* Build configuration list for PBXProject "AirGuitar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA23E1718848DE4007EA37D /* Debug */,
+				FAA23E1818848DE4007EA37D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA23E1918848DE4007EA37D /* Build configuration list for PBXNativeTarget "AirGuitar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA23E1A18848DE4007EA37D /* Debug */,
+				FAA23E1B18848DE4007EA37D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA23E1C18848DE4007EA37D /* Build configuration list for PBXNativeTarget "AirGuitarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA23E1D18848DE4007EA37D /* Debug */,
+				FAA23E1E18848DE4007EA37D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAA23DDF18848DE4007EA37D /* Project object */;
+}
