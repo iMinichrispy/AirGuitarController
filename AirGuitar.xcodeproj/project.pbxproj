@@ -58,6 +58,7 @@
 		FAD9C76A1887368E00B41CA5 /* Guitar.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD9C7691887368E00B41CA5 /* Guitar.png */; };
 		FAD9C76D18873DD000B41CA5 /* MailComposer.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD9C76C18873DD000B41CA5 /* MailComposer.m */; };
 		FAD9C76F18873E1400B41CA5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD9C76E18873E1400B41CA5 /* MessageUI.framework */; };
+		FADBFC6918AC0356007942D0 /* libAirGuitarSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FADBFC6818AC0356007942D0 /* libAirGuitarSDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -146,6 +147,7 @@
 		FAD9C76B18873DD000B41CA5 /* MailComposer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailComposer.h; sourceTree = "<group>"; };
 		FAD9C76C18873DD000B41CA5 /* MailComposer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailComposer.m; sourceTree = "<group>"; };
 		FAD9C76E18873E1400B41CA5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		FADBFC6818AC0356007942D0 /* libAirGuitarSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAirGuitarSDK.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 			files = (
 				FA638F9F189B6499001ADA37 /* ExternalAccessory.framework in Frameworks */,
 				FA9F5543188BA6050068CBF8 /* SystemConfiguration.framework in Frameworks */,
+				FADBFC6918AC0356007942D0 /* libAirGuitarSDK.a in Frameworks */,
 				FA9F5538188B07E20068CBF8 /* CoreMotion.framework in Frameworks */,
 				FAD9C76F18873E1400B41CA5 /* MessageUI.framework in Frameworks */,
 				FAA23E4418849042007EA37D /* CFNetwork.framework in Frameworks */,
@@ -229,6 +232,7 @@
 		FAA23DE918848DE4007EA37D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FADBFC6818AC0356007942D0 /* libAirGuitarSDK.a */,
 				FA638F9E189B6499001ADA37 /* ExternalAccessory.framework */,
 				FA9F5542188BA6050068CBF8 /* SystemConfiguration.framework */,
 				FA9F5537188B07E20068CBF8 /* CoreMotion.framework */,
@@ -589,6 +593,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -628,6 +633,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -651,7 +657,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AirGuitar/AirGuitar-Prefix.pch";
 				INFOPLIST_FILE = "AirGuitar/AirGuitar-Info.plist";
@@ -659,6 +665,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"/Users/Alex/Desktop/Alex's\\ Docs/Xcode/Alex\\ Projects/Air\\ Guitar\\ Project/AirGuitar",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -674,7 +681,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AirGuitar/AirGuitar-Prefix.pch";
 				INFOPLIST_FILE = "AirGuitar/AirGuitar-Info.plist";
@@ -682,6 +689,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"/Users/Alex/Desktop/Alex's\\ Docs/Xcode/Alex\\ Projects/Air\\ Guitar\\ Project/AirGuitar",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
