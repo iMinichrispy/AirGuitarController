@@ -12,7 +12,7 @@
 @interface AsyncService () {
     id socketDelegate;
     NSMutableArray *connectedSockets;
-    int keynumbers[6];
+    int keynumbers[7];
 }
 
 @end
@@ -117,8 +117,8 @@
 	[self.clientSocket writeData:data withTimeout:-1 tag:1];
 }
 
-- (void)setKeyNumbersForArray:(char[6])letters {
-    for (int x = 0; x<6; x++)
+- (void)setKeyNumbersForArray:(char[7])letters {
+    for (int x = 0; x < 7; x++)
         keynumbers[x] = [self keyCodeForKeyString:letters[x]];
 }
 

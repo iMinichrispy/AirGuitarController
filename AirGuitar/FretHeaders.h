@@ -13,7 +13,7 @@
 #define FRET_5 4
 #define PICK_1 5
 #define PICK_2 5 // Yet to be implemented
-#define STAR_POWER 7
+#define STAR_POWER 6
 #define PLAYER1_KEYS {'c','d','e','f','g','h','i'}
 #define PLAYER2_KEYS {'m','n','o','p','q','r','s'}
 
